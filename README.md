@@ -1,4 +1,4 @@
-# Reference Counter
+# Reference Counting
 This is an algorithm for automatic garbage collector using reference counting.
 
 The automatic garbage collector is a mechanism which remove areas in the memory that is not being used anymore without the command of a programmer.
