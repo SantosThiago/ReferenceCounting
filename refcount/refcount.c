@@ -28,6 +28,7 @@ void printRefList() //runs all the list printing your elements
 
 void updateReferenceList(memory *element, int counter)  //updates the quantify of references to a pointer
                                                         //checks if a pointer is still being referenced by the list
+{ 
     element->counter += counter;
     if (element->counter == 0)
     {
